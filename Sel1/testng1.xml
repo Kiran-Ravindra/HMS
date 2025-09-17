@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name ="SmokeTest" ></include> 
+		<!--	<include name ="RegressionTest" ></include>  -->
+		</run>
+	</groups>
+  <test name="Test">
+    <classes>
+      <class name="com.testng.annotations.User"/>
+      <class name="com.testng.annotations.customer"/>
+      <class name="com.testng.annotations.Item"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

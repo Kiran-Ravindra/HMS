@@ -1,0 +1,10 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.testng.annotations.User"/>
+      <class name="com.testng.annotations.customer"/>
+      <class name="com.testng.annotations.Item"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
