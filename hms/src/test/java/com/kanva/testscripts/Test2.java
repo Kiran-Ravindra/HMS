@@ -9,5 +9,6 @@ public class Test2 {
 	@Test
 	public void closeBrowser() {
 		Reporter.log("Close Browser",true);
+		Reporter.log("In Jenkins",true);
 	}
 }
